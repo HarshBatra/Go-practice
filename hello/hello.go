@@ -15,6 +15,7 @@ func main() {
 
 	fmt.Println(quote.Go())
 	message, err1 := greetings.Hello("Harsh")
+	// message, err1 := greetings.Hello("")
 
 	// if an error was returned, print it to the console and exit the process
 	if err1 != nil {
@@ -25,6 +26,7 @@ func main() {
 
 	// A slice of names
 	names := []string{"Abc", "Def", "Xyz"}
+	// names := []string{"Abc", "Def", "Xyz", ""}
 
 	messages, err2 := greetings.Hellos(names)
 
